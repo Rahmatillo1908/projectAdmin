@@ -1,9 +1,8 @@
-import { Box, Toolbar, Typography, useTheme } from '@mui/material'
+import { Box, useTheme } from '@mui/material'
 import { tokens } from '../../theme'
 import Header from '../../components/Header'
 import { DataGrid, GridToolbar } from '@mui/x-data-grid'
 import { mockDataContacts } from "../../data/mockData"
-import { AdminPanelSettingsOutlined, LockOpenOutlined, SecurityOutlined } from '@mui/icons-material'
 const Contact = () => {
   const theme = useTheme()
   const colors = tokens(theme.palette.mode)

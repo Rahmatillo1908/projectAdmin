@@ -51,7 +51,7 @@ const Sidebars = () => {
       }}>
       <ProSidebar  collapsed={isCollapsed} >
         <Menu iconShape="square" >
-          <MenuItem onClick={() => setIsCollapsed(!isCollapsed)} icon={isCollapsed ? <MenuOutlined /> : undefined}
+          <MenuItem onClick={() => setIsCollapsed(!isCollapsed)} icon={isCollapsed ? <MenuOutlined /> : ''}
             style={{ margin: "0px 0 10px 0", color: colors.grey[100] }} >
             {!isCollapsed && (
               <Box display="flex" justifyContent="space-between" alignItems="center" ml="15px" >
