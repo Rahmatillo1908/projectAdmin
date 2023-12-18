@@ -23,3 +23,8 @@ html , #root ,.app, body , .content{
 ::-webkit-scrollbar-track:hover {
   background: #555;
 }
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout {
+  overflow-y: hidden !important;
+  height: 155% !important;
+  background: #1F2A40;
+}
